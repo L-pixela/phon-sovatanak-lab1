@@ -3,11 +3,11 @@ import app from "../app.js";
 import { expect } from "chai";
 
 describe('GET /', () => {
-  it('should return Hello, GitHub Actions!', async () => {
+  it('should return Hello, CI/CD!', async () => {
     const res = await supertest(app)
       .get('/')
       .expect(200);
 
-    expect(res.text).to.equal('Hello, GitHub Actions!');
+    expect(res.text).to.equal('Hello, CI/CD!');
   });
 });
