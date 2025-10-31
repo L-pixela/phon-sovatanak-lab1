@@ -1,0 +1,35 @@
+{
+  "name": "phon-sovatanak-lab1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --exit",
+    "lint": "eslint . --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L-pixela/phon-sovatanak-lab1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/L-pixela/phon-sovatanak-lab1/issues"
+  },
+  "homepage": "https://github.com/L-pixela/phon-sovatanak-lab1#readme",
+  "description": "",
+  "dependencies": {
+    "chai": "^6.2.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "mocha": "^11.7.4",
+    "supertest": "^7.1.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.38.0",
+    "eslint": "^9.38.0",
+    "globals": "^16.4.0"
+  }
+}
